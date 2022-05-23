@@ -1,0 +1,24 @@
+.users {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.users > button {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(173, 2, 173);
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.5s;
+}
+
+.users > button:hover {
+    background-color: rgba(238, 0, 0, 0.678);
+    box-shadow: 0 0 20px rgba(255, 0, 64, 0.76);
+}
+
