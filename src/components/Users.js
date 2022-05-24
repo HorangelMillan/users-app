@@ -115,9 +115,9 @@ const Users = () => {
                             ) : isModal === 'deleteUser' && (
 
                                 <div className={`delete-user ${fadeOut && 'fadeOut'}`}>
-                                    <h2>¿want you delete this user?</h2>
+                                    <h2>¿Do you want delete this user?</h2>
                                     <button onClick={() => deleteUser(selectedUser.id, animationModal(), clearInputs())}>Yes, i want</button>
-                                    <button onClick={animationModal} >No</button>
+                                    <button onClick={animationModal} >No, i don't</button>
                                 </div>
 
                             )
