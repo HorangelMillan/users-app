@@ -8,13 +8,13 @@
 }
 
 .users-list > li > div:nth-child(1) {
-    width: 78%;
+    width: 75%;
 }
 
 .users-list > li > div:nth-child(2) {
     display: flex;
     flex-direction: column;
-    width: 22%;
+    width: 25%;
 }
 
 .users-list li button {
