@@ -8,6 +8,10 @@ html {
   background: linear-gradient(90deg, rgb(230, 2, 230), blueviolet);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .delete-user {
   position: relative;
   z-index: 9999;

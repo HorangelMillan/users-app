@@ -49,12 +49,12 @@ const Users = () => {
         getUsers(); */
         axios.post('https://users-crud1.herokuapp.com/users/', userByForm)
             .then(res => getUsers(), console.log('add:', userByForm))
-            .catch(error => console.log('Hubo un error: ' + error))
+            .catch(error => console.log('Hubo un error: ' + error));
     };
 
     const editUser = (userEdited) => {
-        delete userEdited.id;
-        /* const userIndex = usersDb.findIndex(user => user.id === selectedUser.id);
+        /* delete userEdited.id;
+        const userIndex = usersDb.findIndex(user => user.id === selectedUser.id);
         users[userIndex] = userEdited;
         setUsers([...users]) */
         axios.put(`https://users-crud1.herokuapp.com/users/${selectedUser.id}/`, userEdited)
@@ -89,6 +89,12 @@ const Users = () => {
 
     return (
         <div className='users'>
+
+            <div className='animated-figures'>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
 
             <button onClick={() => openCloseModal('addUser', clearInputs())}><h2>Add new user</h2></button>
 
