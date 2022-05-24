@@ -51,7 +51,7 @@ const UsersForm = ({ addUser, selectedUser, editUser, clearInputs, openCloseModa
 
     return (
         <form className='users-form'>
-            <h2><b>Edit User</b></h2>
+            <h2><b>{selectedUser ? 'Edit user' : 'Add User'}</b></h2>
 
             <label htmlFor="first-name"><b>First name </b></label>
             <div><input onChange={e => setFirstName(e.target.value)} value={firstName} type="text" id='first-name' /></div>
