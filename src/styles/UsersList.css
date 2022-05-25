@@ -9,6 +9,7 @@
 
 .users-list > li > div:nth-child(1) {
     width: 75%;
+    margin-right: 1rem;
 }
 
 .users-list > li > div:nth-child(2) {
