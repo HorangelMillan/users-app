@@ -8,8 +8,12 @@ html {
   background: linear-gradient(90deg, rgb(230, 2, 230), blueviolet);
 }
 
-::-webkit-scrollbar {
-  display: none;
+h1 {
+  font-family: 'Courgette', cursive;
+}
+
+h2, p, span, button {
+  font-family: 'Baloo 2', cursive;
 }
 
 .delete-user {

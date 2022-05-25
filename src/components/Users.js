@@ -96,7 +96,7 @@ const Users = () => {
                 <div></div>
             </div>
 
-            <button onClick={() => openCloseModal('addUser', clearInputs())}><h2>Add new user</h2></button>
+            <button onClick={() => openCloseModal('addUser', clearInputs())}><h1>Add new user</h1></button>
 
             {
                 isModal && (
